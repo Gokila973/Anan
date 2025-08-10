@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anandh | Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #eef2f3;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            background: #fff;
+            margin: 3em auto;
+            padding: 2em;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.10);
+        }
+        h1 {
+            color: #1976d2;
+            margin-bottom: 0.5em;
+        }
+        h2 {
+            color: #333;
+            margin-top: 0;
+        }
+        p {
+            color: #444;
+            font-size: 1.1em;
+        }
+        .info {
+            margin-top: 1em;
+            padding: 1em;
+            background: #f5f7fa;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Anandh</h1>
+        <h2>Thiruchengode, Tamil Nadu</h2>
+        <div class="info">
+            <p>
+                I am Anandh from Thiruchengode. I am currently pursuing 2nd year B.E CSE (Cyber Security) at SVHEC.
+            </p>
+        </div>
+        <!-- You can add more sections like your interests, skills, or contact info below -->
+    </div>
+</body>
+</html>er;
+    }
+    footer {
+      background: #0f4038;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+    [data-animate] {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.6s ease;
+    }
+    [data-animate].active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Achutha</h1>
+  <p>B.E. CSE (Cyber Security) | 2nd Year Student at SVHEC</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="about" data-animate>
+  <div style="text-align:center;">
+    <img src="https://via.placeholder.com/150" alt="Achutha">
+    <h2>About Me</h2>
+    <p>Hello! I’m <strong>Achutha</strong> from Dharmapuri.<br>
+       I’m currently pursuing my 2nd year B.E. in Computer Science & Engineering (Cyber Security)  
+       at SVHEC. I have a passion for technology, problem-solving, and creating modern web solutions.</p>
+  </div>
+</section>
+
+<section id="skills" data-animate>
+  <h2 style="text-align:center;">Skills & Interests</h2>
+  <div class="skills">
+    <div class="card">
+      <h3>Cyber Security</h3>
+      <p>Learning ethical hacking, network security, and data protection.</p>
+    </div>
+    <div class="card">
+      <h3>Web Development</h3>
+      <p>Building modern, responsive websites with HTML, CSS, and JavaScript.</p>
+    </div>
+    <div class="card">
+      <h3>Problem Solving</h3>
+      <p>Enjoy working on coding challenges and innovative projects.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" data-animate>
+  <h2 style="text-align:center;">Contact Me</h2>
+  <div class="contact">
+    <div class="card">
+      <p>Email: <strong>you@example.com</strong></p>
+    </div>
+    <div class="card">
+      <p>LinkedIn: <strong>linkedin.com/in/yourprofile</strong></p>
+    </div>
+    <div class="card">
+      <p>GitHub: <strong>github.com/yourusername</strong></p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Achutha. All rights reserved.</p>
+</footer>
+
+<script>
+  const elements = document.querySelectorAll("[data-animate]");
+  const showOnScroll = () => {
+    const triggerBottom = window.innerHeight * 0.85;
+    elements.forEach(el => {
+      const boxTop = el.getBoundingClientRect().top;
+      if (boxTop < triggerBottom) el.classList.add("active");
+    });
+  };
+  window.addEventListener("scroll", showOnScroll);
+  showOnScroll();
+</script>
+
+</body>
+</html>r("scroll", showOnScroll);
+  showOnScroll();
+</script>
+
+</body>
+</html>
